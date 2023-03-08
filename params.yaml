@@ -1,0 +1,4 @@
+data:
+    clean: "data/survey lung cancer.csv"
+models:
+    linear_reg: "models/linear_reg.pickle"
