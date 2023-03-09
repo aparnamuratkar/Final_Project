@@ -1,3 +1,23 @@
 data:
-    raw: 'data/raw/survey_lung_cancer.csv'
-    clean: '../data/clean/clean_survey_lung_cancer.csv'
+  raw: 'data/raw/survey_lung_cancer.csv'
+  clean: '../data/clean/clean_survey_lung_cancer.csv'
+  train: '../data/train/lung_train.csv'
+  test: '../data/test/lung_test.csv'
+
+testsplit:
+  random_state: 40
+  test_size:    0.25
+
+models: 
+  log_reg: '../models/log_reg.pkl'
+  random_Forest: '../models/random_Forest.pkl'
+  knn: '../models/knn.pkl'
+  SVC: '../models/rcv.pkl'
+
+scalers:
+  std: '../scalers/std.pkl'
+
+encoders:
+  label_encoder: '../encoders/label_encoder.pkl'
+
+
