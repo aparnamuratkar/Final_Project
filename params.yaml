@@ -1,6 +1,7 @@
 data:
   raw: 'data/raw/survey_lung_cancer.csv'
   clean: '../data/clean/clean_survey_lung_cancer.csv'
+  predict: '../data/predict/clean_survey_lung_cancer1.csv'
   train: '../data/train/lung_train.csv'
   test: '../data/test/lung_test.csv'
 
